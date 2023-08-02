@@ -120,7 +120,8 @@ img {
   align-items: center;
   height: 9rem;
   width: 100%;
-  padding: 0 6rem;
+  padding: 2rem;
+  /* padding: 0 6rem; */
   z-index: 100;
 }
 
@@ -213,14 +214,13 @@ img {
 
 .header__title {
   flex: 1;
-
   max-width: 115rem;
   display: grid;
   grid-template-columns: 3fr 2fr;
   row-gap: 3rem;
   align-content: center;
   justify-content: center;
-
+  padding-top: 8rem;
   align-items: start;
   justify-items: start;
 }
