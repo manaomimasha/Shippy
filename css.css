@@ -170,7 +170,30 @@ img {
   color: #333;
 }
 
+/* RESPONSIVE */
+@media screen and (max-width: 767px) {
+  .nav__links .nav__link:link,
+  .nav__links .nav__link:visited {
+    font-size: 5px; /* Cambia el tamaño de la letra según tus preferencias */
+    font-weight: 400;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+    width: 100%;
+    z-index: 100;
+    padding: 0;
+  }
+}
+
 /* HEADER */
+
 .header {
   padding: 0 3rem;
   height: 100vh;
@@ -179,7 +202,14 @@ img {
   align-items: center;
 }
 
-
+/* para responsive */
+.header {
+  padding: 0 3rem;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .header__title {
   flex: 1;
@@ -352,6 +382,18 @@ h4 {
   row-gap: 0.5rem;
 }
 
+/* PROBANDO */
+@media screen and (max-width: 767px) {
+  .operations__content--active {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    justify-content: center;
+  }
+}
+
+/* FIN PROBANDO  */
+
 .operations__header {
   font-size: 2.25rem;
   font-weight: 500;
@@ -374,6 +416,18 @@ h4 {
 
 .operations__content p {
   grid-column: 2;
+}
+
+/* responsive */
+@media screen and (max-width: 767px) {
+  .operations__content p {
+    grid-column: 1;
+  }
+  .icono-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .operations__icon--1 {
@@ -516,6 +570,15 @@ h4 {
   color: #666;
 }
 
+@media screen and (max-width: 700px) {
+  .testimonial__text {
+    font-size: 1.7rem;
+    margin-bottom: 3.5rem;
+    color: #666;
+    font-size: 10px;
+  }
+}
+
 .testimonial__author {
   margin-left: 3rem;
   font-style: normal;
@@ -544,6 +607,22 @@ h4 {
 
 .section__title--testimonials {
   margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 767px) {
+  .testimonial::before {
+    content: "\201C";
+    padding-top: 50px;
+    padding-right: 20px;
+    position: absolute;
+    top: -5.7rem;
+    left: -4rem;
+    line-height: 1;
+    font-size: 10rem;
+    font-family: inherit;
+    color: var(--color-primary);
+    z-index: -1;
+  }
 }
 
 /* SIGNUP */
@@ -695,7 +774,5 @@ h4 {
   font-size: 1.5rem;
   font-weight: 400;
 }
-
-
 
 
