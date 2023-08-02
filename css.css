@@ -100,6 +100,15 @@ p {
   color: #666;
 }
 
+
+@media screen and (max-width: 767px)
+{
+p {
+  color: #666;
+  font-size: 15px;
+}}
+
+
 /* This is BAD for accessibility! Don't do in the real world! */
 button:focus {
   outline: none;
@@ -254,7 +263,7 @@ h4 {
  }
 
 
- 
+
 
 .highlight {
   position: relative;
