@@ -242,6 +242,20 @@ h4 {
   transform: translateY(-6rem);
 }
 
+
+/* RESPONSIVE  */
+@media screen and (max-width: 767px){
+  .header__img {
+    width: 100%;
+    grid-column: 1 / 3;
+    grid-row: 1 / span 4;
+    transform: translateY(-6rem);
+  }
+ }
+
+
+ 
+
 .highlight {
   position: relative;
 }
