@@ -205,11 +205,18 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 9rem;
+    height: 10rem;
     width: 100%;
     z-index: 100;
     padding: 0;
   }
+
+
+.nav__item {
+  margin-left: 0;
+}
+
+
 }
 
 
@@ -294,7 +301,7 @@ img {
   align-content: center;
   justify-content: center;
   /* padding-left: 11rem; */
-  padding-top: 8rem;
+  padding-top: 18rem;
   align-items: start;
   justify-items: start;
 } } 
