@@ -266,7 +266,7 @@ img {
 }
 
 
-@media screen and (max-width: 767px)
+/* @media screen and (max-width: 767px)
 {
 .header__title {
   flex: 1;
@@ -280,7 +280,25 @@ img {
   padding-top: 8rem;
   align-items: start;
   justify-items: start;
-} }
+} } */
+
+
+
+@media screen and (max-width: 767px)
+{
+.header__title {
+  
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  align-content: center;
+  justify-content: center;
+  padding-left: 11rem;
+  padding-top: 8rem;
+  align-items: start;
+  justify-items: start;
+} } 
+
 
 
 h1 {
