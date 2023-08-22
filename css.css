@@ -212,6 +212,27 @@ img {
   }
 }
 
+
+@media screen and (max-width: 450px){
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+    width: 100%;
+    z-index: 100;
+    padding: 0;
+    flex-direction: column;
+}
+.nav__links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  flex-direction: column;
+}
+}
+
+
 /* HEADER */
 
 .header {
