@@ -446,16 +446,6 @@ h4 {
   justify-content: center;
 }
 
-@media screen and (max-width: 767px) {
-  .operations__tab-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 1.5rem;
-    justify-content: center;
-  }
-}
-
 .operations__tab {
   margin-right: 2.5rem;
   transform: translateY(-50%);
@@ -502,6 +492,25 @@ h4 {
   column-gap: 3rem;
   row-gap: 0.5rem;
 }
+
+
+/* RESPONSIVE OPERATIONS  */
+@media screen and (max-width: 767px) {
+  .operations__tab-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+    justify-content: center;
+  }
+  .operations__content {
+    display: none;
+    font-size: 1.7rem;
+    padding: 2.5rem 7rem 3rem 4rem;
+}
+}
+
+
 
 /* PROBANDO */
 @media screen and (max-width: 767px) {
