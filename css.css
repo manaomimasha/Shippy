@@ -17,11 +17,11 @@
 
 /* CON AZUL */
 :root {
-  --color-primary:  #2446e6;
+  --color-primary:  #3aabd7;
   --color-secondary: #ffcb03;
   --color-tertiary: #ff585f;
   /* cambie a azul */
-  --color-primary-darker: #03023b;
+  --color-primary-darker: #002033;
   --color-secondary-darker: #ffbb00;
   --color-tertiary-darker: #fd424b;
   --color-primary-opacity: #5ec5763a;
