@@ -814,6 +814,18 @@ h4 {
   font-size: 1.4rem;
 }
 
+
+@media screen and (max-width: 450px) {
+.footer__nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  flex-direction: column;
+}
+}
+
+
 /* MODAL WINDOW */
 .modal {
   position: fixed;
