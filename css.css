@@ -922,3 +922,47 @@ h4 {
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+
+
+
+/* SCREENSHOS */
+.screenshots{
+  height: 1500px;
+}
+
+.screenshots img{
+  height: 400px;
+  width: auto;
+}
+
+
+.grid-imagenes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas en el grid */
+  gap: 10px; /* Espacio entre las imágenes */
+}
+
+.header__img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media screen and (max-width: 450px) {
+.grid-imagenes {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.screenshots img {
+  height: auto;
+  width: auto;
+}
+
+.screenshots {
+  height: auto;
+}
+
+}
