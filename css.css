@@ -336,7 +336,9 @@ img {
     align-content: center;
     justify-content: center;
     /* padding-left: 11rem; */
-    padding-top: 18rem;
+    /* padding-top: 18rem; */
+    
+    padding-top: 22rem;
     align-items: start;
     justify-items: start;
   }
