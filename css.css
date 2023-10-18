@@ -288,7 +288,8 @@ img {
 
 .header {
   padding: 0 3rem;
-  height: 1000px;
+  /* height: 1000px; */
+  height: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
